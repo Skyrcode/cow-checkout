@@ -1,0 +1,9 @@
+{
+  "name": "cow-checkout",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Stripe checkout function for The Wealth Shelf (Choice of Wealth)",
+  "dependencies": {
+    "stripe": "^17.0.0"
+  }
+}
