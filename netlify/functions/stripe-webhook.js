@@ -19,17 +19,17 @@ const stripe = Stripe(process.env.STRIPE_SECRET_KEY);
 // and deployed, the URLs below will work as-is (same site, same domain).
 // Add the LIVE price IDs here too once Ana creates them in live mode.
 const DOWNLOAD_LINKS = {
-  'price_1U69oV2KArjSRP5oB8iJAnMG': {
+  'prod_V6rS3s4MeoSxxC': {
     // TEST — The Choice of Wealth eBook
     name: 'The Choice of Wealth',
     url: 'https://YOUR-NETLIFY-SITE.netlify.app/files/choice-of-wealth.pdf',
   },
-  'price_1U6A2v2KArjSRP5orFPu3l52': {
+  'prod_V6rTv6uNEP1sKR': {
     // TEST — Fraud on Steroids eBook
     name: 'Fraud on Steroids',
     url: 'https://YOUR-NETLIFY-SITE.netlify.app/files/fraud-on-steroids.pdf',
   },
-  'price_1U6A9d2KArjSRP5oLna93ZCW': {
+  'prod_V6rVNCfjd6UPSp': {
     // TEST — Talk Risky to Me eBook
     name: 'Talk Risky to Me',
     url: 'https://YOUR-NETLIFY-SITE.netlify.app/files/talk-risky-to-me.pdf',
