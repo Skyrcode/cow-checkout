@@ -23,9 +23,9 @@ const ALLOWED_ORIGIN = process.env.ALLOWED_ORIGIN || '*';
 // both test and live IDs can sit here together with no conflict, since
 // only the ones matching your current Stripe key's mode will ever work.
 const ALLOWED_PRICE_IDS = [
-  'price_1U69oV2KArjSRP5oB8iJAnMG', // TEST — The Choice of Wealth eBook
-  'price_1U6A2v2KArjSRP5orFPu3l52', // TEST — Fraud on Steroids eBook
-  'price_1U6A9d2KArjSRP5oLna93ZCW', // TEST — Talk Risky to Me eBook
+  'price_1U6xfm2LMPp8Kp62eqM5oHFo', // TEST — The Choice of Wealth eBook
+  'price_1U6xjE2LMPp8Kp621fp6wF0J', // TEST — Fraud on Steroids eBook
+  'price_1U6xlz2LMPp8Kp62gZTjwRJA', // TEST — Talk Risky to Me eBook
   // 'price_LIVE_ID_HERE_1', // LIVE — The Choice of Wealth eBook
   // 'price_LIVE_ID_HERE_2', // LIVE — Fraud on Steroids eBook
   // 'price_LIVE_ID_HERE_3', // LIVE — Talk Risky to Me eBook
